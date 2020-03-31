@@ -1,8 +1,12 @@
 news_sites:
   eluniversal:
     url: http://www.eluniversal.com.mx
+    queries:
+      homepage_article_links: '.field-content a'
   elpais:
     url: https://elpais.com
+    queries:
+      homepage_article_links: '.articulo-titulo a'
   fincaraiz:
     url: https://www.fincaraiz.com.co/finca-raiz
     venta: venta
