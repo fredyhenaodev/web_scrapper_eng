@@ -1,0 +1,10 @@
+news_sites:
+  eluniversal:
+    url: http://www.eluniversal.com.mx
+  elpais:
+    url: https://elpais.com
+  fincaraiz:
+    url: https://www.fincaraiz.com.co/finca-raiz
+    venta: venta
+    arriendo: arriendo
+    vacacional: alquiler-vacacional
