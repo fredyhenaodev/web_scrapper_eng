@@ -3,6 +3,7 @@ import bs4
 
 from common import config
 
+
 class NewsPage:
 
     def __init__(self, news_site_uid, url):
@@ -22,6 +23,7 @@ class NewsPage:
 
         self._html = bs4.BeautifulSoup(response.text, 'html.parser')
 
+
 class HomePage(NewsPage):
 
     def __init__(self, news_site_uid, url):
@@ -35,6 +37,7 @@ class HomePage(NewsPage):
                 link_list.append(link)
 
         return set(link['href'] for link in link_list)
+
 
 class ArticlePage(NewsPage):
 
